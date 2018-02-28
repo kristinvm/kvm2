@@ -1,0 +1,3 @@
+def celcius_fahrenheit(intemp):
+    return [[c*9/5] + 32 for c in intemp]
+print (celcius_fahrenheit([0, 37.5]))
